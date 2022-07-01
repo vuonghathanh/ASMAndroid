@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/tvTime"
+        android:text="3AM"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/ivCover"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/bg_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/tvEx"
+        android:textColor="@color/white"
+        android:text="27.6"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
